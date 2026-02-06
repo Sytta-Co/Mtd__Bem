@@ -1,0 +1,65 @@
+
+
+.hero {
+  text-align: center;
+  color: black;
+}
+
+.hero__nav-link a {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 50px;
+  background-color: rgb(0, 0, 0, 0.201);
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.201);
+}
+
+.hero__nav-link a:hover {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 50px;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.438);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.201);
+}
+
+.closet{
+  padding: 80px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.145);
+  border-radius: 20px;
+  width: 40%;
+}
+
+.closet__shoes{
+  background-color: rgba(0, 0, 0, 0.201);
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 100px 100px;
+}
+
+.closet__shoes-item{
+  text-align: center;
+  padding: 100px 100px;
+  color:rgb(30, 30, 30);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.closet__shoes-item:hover {
+  background-color: rgba(0, 0, 0, 0.169);
+}
